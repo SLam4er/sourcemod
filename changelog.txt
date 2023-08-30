@@ -435,7 +435,7 @@ Changes:
  - Fixed amb1583 - MySQL string fetch from prepared queries returned corrupted data.
  - Fixed amb1358 - Timeleft did not reset on TF2 restarts.
  - Fixed cases where the JIT was too cautious in space optimizations.
- - Fixed TF2/Cstrike extensions being loadable on incompatible games.
+ - Fixed TF2/clientmod extensions being loadable on incompatible games.
  - Fixed various documentation inconsistencies and typos.
  - Fixed internal bugs with file extension handling.
  

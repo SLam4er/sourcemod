@@ -51,7 +51,7 @@ pb_gamedir_map = {
 
 # SDK name to source code gamedir
 pb_gamesrcdir_map = {
-  'csgo': 'cstrike15',
+  'csgo': 'clientmod15',
   'blade': 'berimbau',
   'mcv': 'vietnam',
 }

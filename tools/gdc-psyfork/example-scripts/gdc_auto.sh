@@ -10,7 +10,7 @@ fi
 touch gdc.lock
 
 games=(
-	"CStrike"
+	"clientmod"
 )
 
 email_test=(
@@ -21,7 +21,7 @@ email_all=(
 	"self@example.com"
 )
 
-email_cstrike=(
+email_clientmod=(
 	"css-op@example.com"
 	"css-op2@example.com"
 	"css-op3@example.com"

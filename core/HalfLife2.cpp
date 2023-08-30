@@ -44,7 +44,7 @@
 #include <bridge/include/ILogger.h>
 
 #if SOURCE_ENGINE == SE_CSGO
-#include <cstrike15_usermessages.pb.h>
+#include <clientmod15_usermessages.pb.h>
 #elif SOURCE_ENGINE == SE_BLADE
 #include <berimbau_usermessages.pb.h>
 #elif SOURCE_ENGINE == SE_MCV

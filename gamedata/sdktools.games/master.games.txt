@@ -111,9 +111,9 @@
 		"game"		"dod"
 	}
 	
-	"game.cstrike.txt"
+	"game.clientmod.txt"
 	{
-		"game"		"cstrike"
+		"game"		"clientmod"
 	}
 	
 	"game.hl2mp.txt"

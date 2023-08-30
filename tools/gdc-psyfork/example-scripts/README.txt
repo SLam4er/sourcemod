@@ -11,5 +11,5 @@ This is meant to be called by gdc game scripts, rather than invoked directly. It
 updatecheck.pl </path/to/steam.inf>
 This is used by the gdc_core script, but can also be used standalone. Given the path to a steam.inf file, it will check to see if the game is up to date. Exit codes are as follows (zero and one would ideally be reversed, but I don't want to break existing scripts): 0 - Updated needed. 1 - Up to date. 2 - Failed to parse steam.inf. 3 - Steam Web API gave bad response code (maybe down?)
 
-gdc_<game>.sh, gdc_cstrike.sh [update|auto]
-The included example gdc_cstrike.sh is a game script. It can be copied to create others. The game script defines vars specific to the game, such as download name, gamedir name, path to game relative to download dir, etc.. By default, it will not attempt any update; it will just check using the existing files. Ran with "auto", it will update if necessary, and stop if up to date. Ran with "update" will force an update before running.
+gdc_<game>.sh, gdc_clientmod.sh [update|auto]
+The included example gdc_clientmod.sh is a game script. It can be copied to create others. The game script defines vars specific to the game, such as download name, gamedir name, path to game relative to download dir, etc.. By default, it will not attempt any update; it will just check using the existing files. Ran with "auto", it will update if necessary, and stop if up to date. Ran with "update" will force an update before running.

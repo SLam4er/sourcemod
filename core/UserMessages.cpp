@@ -34,7 +34,7 @@
 #include "logic_bridge.h"
 
 #if SOURCE_ENGINE == SE_CSGO
-#include <cstrike15_usermessage_helpers.h>
+#include <clientmod15_usermessage_helpers.h>
 #elif SOURCE_ENGINE == SE_BLADE
 #include <berimbau_usermessage_helpers.h>
 #elif SOURCE_ENGINE == SE_MCV
@@ -114,7 +114,7 @@ int UserMessages::GetMessageIndex(const char *msg)
 {
 #if SOURCE_ENGINE == SE_CSGO
 	// Can split this per engine and/or game later
-	return g_Cstrike15UsermessageHelpers.GetIndex(msg);
+	return g_clientmod15UsermessageHelpers.GetIndex(msg);
 #elif SOURCE_ENGINE == SE_BLADE
 	return g_BerimbauUsermessageHelpers.GetIndex(msg);
 #elif SOURCE_ENGINE == SE_MCV
@@ -155,7 +155,7 @@ bool UserMessages::GetMessageName(int msgid, char *buffer, size_t maxlength) con
 {
 #ifdef USE_PROTOBUF_USERMESSAGES
 #if SOURCE_ENGINE == SE_CSGO
-	const char *pszName = g_Cstrike15UsermessageHelpers.GetName(msgid);
+	const char *pszName = g_clientmod15UsermessageHelpers.GetName(msgid);
 #elif SOURCE_ENGINE == SE_BLADE
 	const char *pszName = g_BerimbauUsermessageHelpers.GetName(msgid);
 #elif SOURCE_ENGINE == SE_MCV
@@ -449,7 +449,7 @@ bool UserMessages::InternalHook(int msg_id, IBitBufUserMessageListener *pListene
 const protobuf::Message *UserMessages::GetMessagePrototype(int msg_type)
 {
 #if SOURCE_ENGINE == SE_CSGO
-	return g_Cstrike15UsermessageHelpers.GetPrototype(msg_type);
+	return g_clientmod15UsermessageHelpers.GetPrototype(msg_type);
 #elif SOURCE_ENGINE == SE_BLADE
 	return g_BerimbauUsermessageHelpers.GetPrototype(msg_type);
 #elif SOURCE_ENGINE == SE_MCV
@@ -519,7 +519,7 @@ void UserMessages::_DecRefCounter()
 void UserMessages::OnSendUserMessage_Pre(IRecipientFilter &filter, int msg_type, const protobuf::Message &msg)
 {
 #if SOURCE_ENGINE == SE_CSGO
-	const char *pszName = g_Cstrike15UsermessageHelpers.GetName(msg_type);
+	const char *pszName = g_clientmod15UsermessageHelpers.GetName(msg_type);
 #elif SOURCE_ENGINE == SE_BLADE
 	const char *pszName = g_BerimbauUsermessageHelpers.GetName(msg_type);
 #elif SOURCE_ENGINE == SE_MCV

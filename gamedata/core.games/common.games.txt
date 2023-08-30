@@ -159,7 +159,7 @@
 	{
 		"#supported"
 		{
-			"game"					"cstrike"
+			"game"					"clientmod"
 			"game"					"dod"
 			"game"					"sourceforts"
 			"game"					"$Insurgency" // mod
@@ -230,7 +230,7 @@
 			"game"					"zps"
 			"game"					"gesource"
 			"game"					"obsidian"
-			"game"					"cstrike"
+			"game"					"clientmod"
 			"game"					"RnLBeta"
 			"game"					"fof"
 			"game"					"dinodday"
@@ -297,7 +297,7 @@
 			"game"					"ag2"
 			"game"					"nmrih"
 			"game"					"berimbau"
-			"game"					"cstrike"
+			"game"					"clientmod"
 			"game"					"synergy"
 			"game"					"bms"
 			"game"					"kz"
@@ -313,11 +313,11 @@
 		}
 	}
 
-	"cstrike"
+	"clientmod"
 	{
 		"Keys"
 		{
-			"GameExtension"		"game.cstrike"
+			"GameExtension"		"game.clientmod"
 		}
 	}
 	
@@ -330,7 +330,7 @@
 		
 		"Keys"
 		{
-			"GameExtension"		"game.cstrike"
+			"GameExtension"		"game.clientmod"
 		}
 	}
 

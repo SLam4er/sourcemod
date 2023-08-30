@@ -306,7 +306,7 @@ syn keyword	cConstant	PlInfo_URL NULL_VECTOR NULL_STRING
 syn keyword	cTag		PlVers Function Action Identity
 syn keyword	cTag		PluginStatus PluginInfo Extension SharedPlugin
 
-" cstrike.inc
+" clientmod.inc
 syn keyword	cFunction	CS_RespawnPlayer CS_SwitchTeam  
 syn keyword	cConstant	CS_TEAM_NONE CS_TEAM_SPECTATOR CS_TEAM_T CS_TEAM_CT
 syn keyword	cConstant	CS_SLOT_PRIMARY CS_SLOT_SECONDARY CS_SLOT_GRENADE CS_SLOT_C4

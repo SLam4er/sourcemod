@@ -13,7 +13,7 @@ Groups
 	"Humans"				"@humans"
 	"Current aim"			"@aim"
 
-	/* You can enable these if you are using Counter-Strike Source and running the cstrike extension */
+	/* You can enable these if you are using Counter-Strike Source and running the clientmod extension */
 //	"Terrorists"			"@t"
 //	"Counter-Terrorists"	"@ct"
 

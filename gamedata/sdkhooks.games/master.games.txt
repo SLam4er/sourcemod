@@ -156,9 +156,9 @@
 		"game"		"ag2"
 	}
 	
-	"game.cstrike.txt"
+	"game.clientmod.txt"
 	{
-		"game"		"cstrike"
+		"game"		"clientmod"
 	}
 	
 	"game.nmrih.txt"

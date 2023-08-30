@@ -17,7 +17,7 @@ ENGINE_NAME=csgo
 # List of gamedata files to run checks on
 gamedata_files=(
 	"sdktools.games/engine.csgo.txt"
-	"sm-cstrike.games/game.csgo.txt"
+	"sm-clientmod.games/game.csgo.txt"
 )
 
 # Is game a 2006/2007 "mod" ?

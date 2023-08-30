@@ -11,7 +11,7 @@
 
 "Games"
 {
-	"cstrike"
+	"clientmod"
 	{
 		"Offsets"
 		{
@@ -148,7 +148,7 @@
 		}
 	}
 	
-	"cstrike"
+	"clientmod"
 	{
 		"Keys"
 		{

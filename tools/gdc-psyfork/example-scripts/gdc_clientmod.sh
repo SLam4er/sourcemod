@@ -18,7 +18,7 @@ DD_BETA=prerelease
 # Relative path to game's engine directory from DD
 ENGINE_PATH_FROM_DD=${DD_DIR}
 # Game's directory name
-GAME_DIR=cstrike
+GAME_DIR=clientmod
 
 BIN_EXT="_srv"
 
@@ -27,9 +27,9 @@ ENGINE_NAME=css
 
 # List of gamedata files to run checks on
 gamedata_files=(
-	"sdktools.games/game.cstrike.txt"
+	"sdktools.games/game.clientmod.txt"
 	"sdktools.games/engine.css.txt"
-	"sm-cstrike.games/game.css.txt"
+	"sm-clientmod.games/game.css.txt"
 )
 
 # Is game a 2006/2007 "mod" ?

@@ -38,7 +38,7 @@
 #include "sourcemod.h"
 
 #if SOURCE_ENGINE == SE_CSGO
-#include <game/shared/csgo/protobuf/cstrike15_usermessages.pb.h>
+#include <game/shared/csgo/protobuf/clientmod15_usermessages.pb.h>
 #elif SOURCE_ENGINE == SE_BLADE
 #include <game/shared/berimbau/protobuf/berimbau_usermessages.pb.h>
 #elif SOURCE_ENGINE == SE_MCV

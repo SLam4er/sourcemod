@@ -1,5 +1,5 @@
-#ifndef _INCLUDE_CSTRIKE_HASH_H_
-#define _INCLUDE_CSTRIKE_HASH_H_
+#ifndef _INCLUDE_clientmod_HASH_H_
+#define _INCLUDE_clientmod_HASH_H_
 
 #include <amtl/am-string.h>
 #include <amtl/am-hashmap.h>
@@ -96,4 +96,4 @@ typedef ke::HashMap<SMCSWeapon, ItemDefHashValue, WeaponIDPolicy> WeaponIDMap;
 extern ClassnameMap g_mapClassToDefIdx;
 extern ItemIndexMap g_mapDefIdxToClass;
 extern WeaponIDMap g_mapWeaponIDToDefIdx;
-#endif //_INCLUDE_CSTRIKE_HASH_H_
+#endif //_INCLUDE_clientmod_HASH_H_
